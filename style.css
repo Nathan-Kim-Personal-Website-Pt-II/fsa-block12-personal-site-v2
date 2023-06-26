@@ -1,0 +1,150 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    background-image: url("./firewatch-wallpaper.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding-bottom: 35%;
+    text-align: center;
+}
+
+h1 {
+    color: #32002a;
+    padding: 40px 0;
+    font-weight: 700;
+
+}
+
+h2 {
+    color: #32002a;
+}
+
+h3 {
+    position: absolute;
+    left: 28%;
+    bottom: 8%;
+    color: #ffddc6;
+}
+
+span {
+    display: block;
+    padding-top: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #32002a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffddc6;
+}
+
+.right-side {
+    float: right;
+}
+
+section {
+    position: absolute;
+}
+
+section p{
+    padding: 0 50px;
+}
+
+.first-sec {
+    top: 19%;
+}
+
+.second-sec {
+    bottom: 25%;
+}
+
+.third-sec {
+    bottom: 10%;
+}
+
+.second-sec, .third-sec {
+    color: #ffddc6;
+}
+
+.second-sec h2, .third-sec h2 {
+    color: #ffddc6;
+}
+
+
+.sec-A {
+    top: 19%;
+    width: 50%;
+    text-align: left;
+}
+
+.sec-A h2 {
+    padding-left: 10%;
+}
+
+.sec-B {
+    bottom: 30%;
+    width: 50%;
+    text-align: right;
+    padding-left: 50%;
+}
+
+.sec-B h2 {
+    padding-right: 10%;
+}
+
+.sec-C {
+    bottom: 12%;
+    width: 50%;
+    text-align: left;
+    /* Everyone who reads this is definitely sec-c ;) */
+}
+
+.sec-C h2{
+    padding-left: 10%;
+}
+
+.sec-B, .sec-C {
+    color: #ffddc6;
+}
+
+.sec-B h2, .sec-C h2 {
+    color: #ffddc6;
+}
+
+section a img{
+    display: inline;
+    width: 5%;
+}
+
+.footer-logos {
+    padding-top: 45px;
+    padding-left: 38%;
+}
+
+.footer-nav {
+    text-align: right;
+    display: block;
+    padding-left: 90%;
+    padding-bottom: 20px;
+}
+
+.footer-nav nav a {
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+.footer-nav nav h4 {
+    padding-right: 20px;
+}
