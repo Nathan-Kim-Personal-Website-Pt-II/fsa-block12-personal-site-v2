@@ -92,15 +92,18 @@ section p{
 
 
 .second-sec {
-    bottom: 25%;
+    bottom: 13%;
+    left: 2%;
 }
 
 .third-sec {
-    bottom: 10%;
+    bottom: 14%;
+    right: 2%;
 }
 
 .second-sec, .third-sec{
     color: #e7edff;
+    width: 48%;
 }
 
 .second-sec h2, .third-sec h2{
