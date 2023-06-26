@@ -4,12 +4,20 @@ body {
 }
 
 main {
-    background-image: url("./firewatch-wallpaper.jpg");
     background-size: 100%;
     background-position: center;
     padding-bottom: 35%;
     text-align: center;
 }
+
+#home-background {
+    background-image: url("./backgrounds/firewatch-black-orange-blue.jpg");
+}
+
+#about-background {
+    background-image: url("./backgrounds/firewatch-natural.webp");
+}
+
 
 h1 {
     color: #32002a;
@@ -29,6 +37,10 @@ h3 {
     color: #ffddc6;
 }
 
+#home-h3 {
+    color: #a7f6ff;
+}
+
 span {
     display: block;
     padding-top: 10px;
@@ -41,12 +53,25 @@ nav {
 a {
     text-decoration: none;
     padding: 0 20px;
-    color: #32002a;
     font-weight: bold;
 }
 
-a:hover {
-    color: #ffddc6;
+.home-nav a {
+    color: #0b002f;
+}
+
+.home-nav a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.about-nav a {
+    color: #717677;
+}
+
+.about-nav a:hover {
+    color: #00571d;
+    text-decoration: underline;
 }
 
 .right-side {
@@ -62,8 +87,9 @@ section p{
 }
 
 .first-sec {
-    top: 19%;
+    top: 22%;
 }
+
 
 .second-sec {
     bottom: 25%;
@@ -73,14 +99,13 @@ section p{
     bottom: 10%;
 }
 
-.second-sec, .third-sec {
-    color: #ffddc6;
+.second-sec, .third-sec{
+    color: #e7edff;
 }
 
-.second-sec h2, .third-sec h2 {
-    color: #ffddc6;
+.second-sec h2, .third-sec h2{
+    color: #e7edff;
 }
-
 
 .sec-A {
     top: 19%;
@@ -129,7 +154,7 @@ section a img{
 
 .footer-logos {
     padding-top: 45px;
-    padding-left: 38%;
+    padding-left: 34%;
 }
 
 .footer-nav {
