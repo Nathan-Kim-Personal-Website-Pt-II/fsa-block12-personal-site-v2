@@ -21,7 +21,7 @@ main {
 #contact-background {
     background-image: url("./backgrounds/firewatch-blue-falling-stars.png");
     background-repeat: no-repeat;
-    margin-top: 2%;
+    margin-top: 0.5%;
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -29,7 +29,7 @@ main {
 #port-background {
     background-image: url("./backgrounds/firewatch-nature-blue-deer.jpg");
     background-repeat: no-repeat;
-    margin-top: 2%;
+    margin-top: 0.5%;
     padding-top: 10%;
     padding-bottom: 50%;
 }
@@ -97,6 +97,15 @@ a {
     text-decoration: underline;
 }
 
+.port-nav a, .port-nav h4 {
+    color: #005063;
+}
+
+.port-nav a:hover {
+    color: #00a1be;
+    text-decoration: underline;
+}
+
 .right-side {
     float: right;
 }
@@ -137,7 +146,7 @@ section p{
 
 
 .sec-A {
-    top: 22%;
+    top: 45%;
     left: 26%;
     width: 50%;
     text-align: center;
@@ -145,8 +154,9 @@ section p{
 }
 
 .sec-B {
-    bottom: 1%;
-    width: 50%;
+    bottom: -10%;
+    right: 0%;
+    width: 30%;
     text-align: right;
     padding-left: 50%;
 }
@@ -156,9 +166,9 @@ section p{
 }
 
 .sec-C {
-    bottom: 1%;
+    bottom: -7%;
     left: 0%;
-    width: 50%;
+    width: 30%;
     text-align: left;
 }
 
@@ -168,11 +178,11 @@ section p{
 
 .sec-B, .sec-C {
     margin-top: 50%;
-    color: #ffddc6;
+    color: #ffffff;
 }
 
 .sec-B h2, .sec-C h2 {
-    color: #ffddc6;
+    color: #ffffff;
 }
 
 .port-bottom {
@@ -253,6 +263,6 @@ main > form > #terms{
 
 #port-h1 {
     position: absolute;
-    top: 7%;
+    top: 19%;
     left: 43%;
 }
