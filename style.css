@@ -15,7 +15,7 @@ main {
 }
 
 #about-background {
-    background-image: url("./backgrounds/firewatch-blue-orange-cliff.jpg");
+    background-image: url("./backgrounds/firewatch-natural.webp");
 }
 
 
@@ -74,8 +74,9 @@ section p{
 }
 
 .first-sec {
-    top: 42%;
+    top: 22%;
 }
+
 
 .second-sec {
     bottom: 25%;
@@ -85,10 +86,13 @@ section p{
     bottom: 10%;
 }
 
-.first-sec, .second-sec, .third-sec{
-    color: #51ffff;
+.second-sec, .third-sec{
+    color: #e7edff;
 }
 
+.second-sec h2, .third-sec h2{
+    color: #e7edff;
+}
 
 .sec-A {
     top: 19%;
@@ -137,7 +141,7 @@ section a img{
 
 .footer-logos {
     padding-top: 45px;
-    padding-left: 38%;
+    padding-left: 34%;
 }
 
 .footer-nav {
