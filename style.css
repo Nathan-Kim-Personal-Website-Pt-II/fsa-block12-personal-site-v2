@@ -4,12 +4,20 @@ body {
 }
 
 main {
-    background-image: url("./firewatch-wallpaper.jpg");
     background-size: 100%;
     background-position: center;
     padding-bottom: 35%;
     text-align: center;
 }
+
+#home-background {
+    background-image: url("./backgrounds/firewatch-black-orange-blue.jpg");
+}
+
+#about-background {
+    background-image: url("./backgrounds/firewatch-blue-orange-cliff.jpg");
+}
+
 
 h1 {
     color: #32002a;
@@ -27,6 +35,10 @@ h3 {
     left: 28%;
     bottom: 8%;
     color: #ffddc6;
+}
+
+#home-h3 {
+    color: #a7f6ff;
 }
 
 span {
@@ -62,7 +74,7 @@ section p{
 }
 
 .first-sec {
-    top: 19%;
+    top: 42%;
 }
 
 .second-sec {
@@ -73,12 +85,8 @@ section p{
     bottom: 10%;
 }
 
-.second-sec, .third-sec {
-    color: #ffddc6;
-}
-
-.second-sec h2, .third-sec h2 {
-    color: #ffddc6;
+.first-sec, .second-sec, .third-sec{
+    color: #51ffff;
 }
 
 
