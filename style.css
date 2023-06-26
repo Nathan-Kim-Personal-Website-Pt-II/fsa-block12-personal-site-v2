@@ -53,12 +53,25 @@ nav {
 a {
     text-decoration: none;
     padding: 0 20px;
-    color: #32002a;
     font-weight: bold;
 }
 
-a:hover {
-    color: #ffddc6;
+.home-nav a {
+    color: #0b002f;
+}
+
+.home-nav a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.about-nav a {
+    color: #717677;
+}
+
+.about-nav a:hover {
+    color: #00571d;
+    text-decoration: underline;
 }
 
 .right-side {
