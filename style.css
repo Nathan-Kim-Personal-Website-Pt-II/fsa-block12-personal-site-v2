@@ -26,15 +26,6 @@ main {
     padding-bottom: 10%;
 }
 
-#contact-form {
-    width: 50%;
-    margin-left: 25%;
-    padding-top: 0%;
-    background-color: white;
-    border-radius: 5%;
-}
-
-
 h1 {
     color: #32002a;
     padding: 40px 0;
@@ -87,6 +78,15 @@ a {
 
 .about-nav a:hover {
     color: #00571d;
+    text-decoration: underline;
+}
+
+.contact-nav a, .contact-nav h4 {
+    color: #290089;
+}
+
+.contact-nav a:hover {
+    color: #e500af;
     text-decoration: underline;
 }
 
@@ -193,3 +193,47 @@ section a img{
     padding-right: 20px;
 }
 
+#contact-form {
+    width: 35%;
+    margin-left: 32.5%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.formEntry {
+    display: block;
+    margin: 15px 10px;
+}
+
+#first-name, #last-name, #email {
+    margin-left:24%;
+    width: 50%;
+}
+
+main > form > #terms{
+    display: inline;
+}
+
+#message {
+    margin-left: 11%;
+}
+
+#contact-form h1 {
+    margin: 0;
+    padding: 30px 0 5px 0;
+}
+
+#contact-form p {
+    color: grey;
+}
+
+.services{
+    display: inline;
+    color:#e500af;
+}
+
+.submit {
+    margin-left:44%;
+}
