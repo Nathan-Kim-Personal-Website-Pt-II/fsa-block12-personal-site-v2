@@ -1,10 +1,29 @@
-/* For mobile : like samsung grand(480 * 800): */
-@media screen and (max-width : 480px){}
+/* For ipad: */
+@media screen and (max-width : 768px){
+    #home-background {
+        background-image:url("./mobile-backgrounds/homepage.png")
+    }
 
+    #home-background h1, #home-background h2, #home-background #home-h3{
+        font-weight: 400;
+    }
+
+    #home-h3 {
+        position: absolute;
+        left:10%;
+        bottom:40%;
+    }
+
+} 
+
+/* For mobile : like samsung grand(480 * 800): */
+@media screen and (max-width : 480px){
+
+
+}
 
 /* For iphone: */
-@media screen and (max-width : 320px){} 
+@media screen and (max-width : 320px){
 
 
-/* For ipad: */
-@media screen and (max-width : 768px){} 
+} 
